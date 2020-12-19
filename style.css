@@ -1,0 +1,143 @@
+body {
+    margin-left: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav,
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.left-nav a,
+.right-nav a {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: #6c6c6c;
+}
+
+.menu-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.profile-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.google {
+    text-align: center;
+    position: relative;
+}
+
+.main-div {
+    position: absolute;
+    top: 6rem;
+    left: 28rem;
+}
+
+.input-field {
+    width: 600px;
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.google-logo-div {
+    margin-bottom: 2rem;
+}
+
+.input-div {
+    position: relative;
+}
+
+.search-icon {
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.voice-icon {
+    height: 25px;
+    position: absolute;
+    left: 590px;
+    top: 15px;
+}
+
+.google-search,
+.feeling-lucky {
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.french {
+    text-decoration: none;
+}
+
+.foot {
+    margin-left: 0px;
+    width: 100vw;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #70759B;
+    margin-top: 607px;
+    border: 1px solid #DADCE0;
+    width: 100%;
+}
+
+.footer-section-about {
+    margin-left: 40px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.footer-bottom {
+    display: flex;
+    background-color: #ffffff;
+    color: #70759B;
+    height: 50px;
+    margin-left: 0;
+    flex-direction: row;
+    border-top: 1px solid #DADCE0;
+}
+
+.footer-bottom ul {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-bottom .left ul li {
+    margin-right: 30px;
+}
+
+.footer-bottom .right ul li {
+    margin-left: 30px;
+}
+
+.footer-bottom {
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+}
